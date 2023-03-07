@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard</title>
+
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="dashboard">
+            <div class="toggle">
+                <img src="./assets/moon.svg" alt="Ícone da lua">
+                <img src="./assets/sun.svg" alt="Ícone do sol">
+                <div class="ball"></div>
+            </div>
+
+            <section id="cards">
+                <div class="card">
+                    <h2 class="title">NPS</h2>
+
+                    <div class="content">
+                        <img src="./assets/happy-face-emoji.svg" alt="Emoji de um rosto alegre">
+                        <span>Excellent!</span>
+                    </div>
+
+                    <div class="bottom">
+                        <p class="small">NPS Score</p>
+                        <span class="number small">75</span>
+                    </div> 
+                </div>
+
+                <div class="card">
+                    <h2 class="title">Vendas fechadas</h2>
+
+                    <div class="content">
+                        <div class="circular-progress">
+                            <div class="value-container">
+                                <div class="value">0%</div>
+                                <p>Alcançados</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottom">
+                        <div>
+                            <p class="small">Esperado</p>
+                            <span class="number small">100</span>
+                        </div>
+                        <div>
+                            <p class="small">Alcançado</p>
+                            <span class="number small">70</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2 class="title">Meta mensal</h2>
+
+                    <div class="content">
+                        <div class="circular-progress">
+                            <div class="value-container">
+                                <div class="value">0%</div>
+                                <p>Alcançados</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottom">
+                        <div>
+                            <p class="small">Esperado</p>
+                            <span class="number small">R$ 70K</span>
+                        </div>
+                        <div>
+                            <p class="small">Alcançado</p>
+                            <span class="number small">R$ 63K</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            
+            <section id="sales">
+                <h2 class="title">Vendas por dia da semana</h2>
+
+                <div class="content">
+                    <div class="left">
+                        <div>
+                            <p class="small">Dia com mais vendas</p>
+                            <span class="day">quarta-feira</span>
+                        </div>
+                        <div>
+                            <p class="small">Dia com menos vendas</p>
+                            <span class="day">domingo</span>
+                        </div>
+                    </div>
+
+                    <div class="graph">
+                        <div>
+                            <div class="column"></div>
+                            <p class="day small">dom</p>
+                        </div>
+                        <div>
+                            <div class="column"></div>
+                            <p class="day small">seg</p>
+                        </div>
+                        <div>
+                            <div class="column"></div>
+                            <p class="day small">ter</p>
+                        </div>
+                        <div>
+                            <div class="column"></div>
+                            <p class="day small">qua</p>
+                        </div>
+                        <div>
+                            <div class="column"></div>
+                            <p class="day small">qui</p>
+                        </div>
+                        <div>
+                            <div class="column"></div>
+                            <p class="day small">sex</p>
+                        </div>
+                        <div>
+                            <div class="column"></div>
+                            <p class="day small">sab</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>

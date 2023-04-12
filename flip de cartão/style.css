@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+font-size: 1.6rem;
+background: #1f2937;
+}
+
+form {
+  border: 1px solid red;
+  padding: 2.4rem;
+  max-width: 40rem;
+  margin: auto;
+}
+
+#credit-card{
+  width: 32.8rem;
+  height: 21.2rem;
+}
+
+#credit-card > div {
+  width: inherit;
+  height: inherit;
+}
+
+#credit-card .front {
+  background: url(/assets/front.png) no-repeat;
+}
+
+#credit-card .back {
+  background: url(/assets/back.png) no-repeat;
+}
+

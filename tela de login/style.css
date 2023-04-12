@@ -188,6 +188,13 @@ form button:hover {
   color: #475569;
 }
 
+.bg-initial {
+  width: 40rem;
+  height: 60rem;
+  margin-top: 10rem;
+  object-fit: scale-down;
+}
+
 @media (max-width: 900px) {
   #page > * {
     width: 100%;
@@ -203,6 +210,14 @@ form button:hover {
 
   main {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 924px) {
+  #page > img {
+    height: 40rem;
+    margin-top: 25rem;
+    object-fit: scale-down;
   }
 }
 

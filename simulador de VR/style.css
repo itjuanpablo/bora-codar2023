@@ -171,6 +171,18 @@ footer {
   opacity: 0.8;
 }
 
+.rocket {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.rocket io-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-top: -2px;
+}
+
 .screen {
   width: 60rem;
   height: 33.75rem;
